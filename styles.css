@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar{
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color:rgb(34, 40, 49) ;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#nav-list{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+li{
+    list-style: none;
+    
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+    padding: 1.25em;
+    font-size: 1.25rem;
+}
+
+
+.welcome-section{
+    padding-top: 3em;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(49, 54, 63) ;
+}
+
+h1{
+    color: white;
+    font-size: 2.5rem;
+    
+}
+strong{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: coral;
+}
+.section-subtitle-home{
+    color: white;
+    font-size: 1.75rem;
+}
+
+.selfie-image{
+    border-radius: 50%;
+  
+}
+
+.my-services{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(49, 54, 63) ;
+}
+
+.services{
+    display: flex;
+    text-align: center;
+    margin:3em;
+    color: white;
+
+
+}
+h3{
+    font-weight: bold;
+}
+.service{
+    width: 50%;
+}
+
+.section-title-services{
+    color: coral;
+    font-size:2.25rem ;
+    font-weight: bold;
+
+}
+.btn{
+    background-color: coral;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(49, 54, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title-about{
+    margin: 0;
+    color: coral ;
+    font-size:2.25rem ;
+    font-weight: bold;
+}
+.about-me-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    color: white;
+}
+.anime-image{
+    border-radius: 50%;
+    margin: 4em;
+    
+}
+.section-subtitle-about{
+    color: white;
+    font-size: 1.25rem;
+    
+}
+#work{
+    background-color:rgb(49, 54, 63) ;
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    padding-top: 2em;
+}
+.section-title-work{
+    color: coral ;
+    font-size:2.25rem ;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.section-subtitle-work{
+    margin-bottom: 3em;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    
+}
+.portfolio-image{
+    margin: 2em;
+}
+
+.footer{
+    background-color:rgb(34, 40, 49) ;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+   
+}
+.copyright{
+    
+color: white;
+}
